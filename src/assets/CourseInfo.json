@@ -1,0 +1,117 @@
+{
+    "name": "Raj Patel",
+    "title": "Front end Developer",
+    "education": "Sheridan College",
+    "gender": "Male",
+    "birthdate": "December 3rd, 1996",
+    "desc": "Add a brief description about what you do",
+    "funfact": "I completed the CN Tower edge walk to test my limits and experience the thrill of a lifetime",
+    "courses": 
+    [{
+        "cName": "iPhone Application Development",
+        "cCode": "PROG 31632",
+        "cSection": "1181_35423",
+        "cSchedule": [
+            {
+                "day": "Wednesday",
+                "time": "11:00AM - 1:00PM",
+                "location": "C230 Davis, Brampton"
+            },
+            {
+                "day": "Thursday",
+                "time": "2:00PM - 4:00PM",
+                "location": "B106 Davis, Brampton"
+            }
+        ],
+        "cProf": {
+            "pname": "Jawaad Sheikh",
+            "pemail": "Jawaad.Sheikh@sheridancollege.ca"
+        },
+        "cDesc": "Students develop iPhone applications using Objective C while considering User Interface design considerations. The course is structured around three main foundational components: (a) Tools (Xcode, Interface Builder), (b) Frameworks (Foundation, UIKit), and (c) Programming using Objective-C. Students use iPhone SDK features, including typical mobile resources (e.g., internet web services, location awareness, etc.), and apply design patterns to develop iPhone applications.",
+        "cCredit": "4.0",        
+        "cClassPlan": "a pdf file here"
+    },
+    {
+        "cName": "Advanced. NET Server Development",
+        "cCode": "PROG 35142",
+        "cSection": "",
+        "cSchedule": [
+            {
+                "day": "Tuesday",
+                "time": "8:00AM - 11:00AM",
+                "location": "M5 Davis, Brampton"
+            },
+            {
+                "day": "Friday",
+                "time": "8:00AM - 11:00AM",
+                "location": "M31 Davis, Brampton"
+            }
+        ],
+        "cProf": {
+            "pname": "Amandeep S. Patti",
+            "pemail": "amandeep.patti@sheridancollege.ca"
+        },
+        "cDesc": "Students learn to develop applications using advanced .NET technologies for the server including the Microsoft Entity Framework, ASP.NET MVCand Web API.They then apply these technologies to build  a Proof of Concept Prototype for the server portion of their Capstone (or equivalent) project.",
+        "cCredit": "6.0",        
+        "cClassPlan": "a pdf file here"
+    },{
+        "cName": "Software Process Management",
+        "cCode": "SYST 38364",
+        "cSection": "1181_38142",
+        "cSchedule": [
+            {
+                "day": "Monday",
+                "time": "8:00AM - 11:00AM",
+                "location": "M28 Davis, Brampton"
+            }
+        ],
+        "cProf": {
+            "pname": "Liz Dancy",
+            "pemail": "Elizabeth.Dancy@sheridancollege.ca"
+        },
+        "cDesc": "Students gain experience in applying various industry standards for ensuring the release of quality software. This learning is supported by exploring techniques for managing software configuration, including testing and deployment. Students use a variety of tools to automate tests and software builds. Working in groups, students learn how to design and execute an overall Software Development Plan which is integral to the successful development and implementation of all computer systems.",
+        "cCredit": "3.0",        
+        "cClassPlan": "a pdf file here"
+    },{
+        "cName": "Hybrid Mobile App Development",
+        "cCode": "SYST35300",
+        "cSection": "1181_39752",
+        "cSchedule": [
+            {
+                "day": "Tuesday",
+                "time": "1:00PM - 4:00PM",
+                "location": "M29 Davis, Brampton"
+            }
+        ],
+        "cProf": {
+            "pname": "Andy Pak",
+            "pemail": "andy.pak@sheridanc.on.ca"
+        },
+        "cDesc": "Students build mobile widgets which are mobile applications created using web technologies (HTML, CSS, and JavaScript). Through a common application program interface (API), these applications have access to the mobile phone's native functions such as the Global Positioning System (GPS), Contacts, and Calendar etc. Students also store information on the mobile device using an indexed database or SQL which is the most widely deployed SQL database engine in the world. In addition, they incorporate multimedia applications as well as understand the security framework for the Blackberry and best practices for writing secure programs. Application deployment issues such as 'signing' are also covered.",
+        "cCredit": "3.0",        
+        "cClassPlan": "a pdf file here"
+    },{
+        "cName": "Capstone Project Requirements & Design",
+        "cCode": "SYST36367",
+        "cSection": "1181_39753",
+        "cSchedule": [
+            {
+                "day": "Thursday",
+                "time": "11:00AM - 2:00PM",
+                "location": "C230 Davis, Brampton"
+            },
+            {
+                "day": "Friday",
+                "time": "1:00PM - 4:00PM",
+                "location": "M29 Davis, Brampton"
+            }
+        ],
+        "cProf": {
+            "pname": "Rich Smith",
+            "pemail": "rich.smith@sheridancollege.ca"
+        },
+        "cDesc": "SYST36367 is the first of two Capstone courses in the Systems Analyst curriculum. This course is of fundamental importance to the curriculum for the following reasons. It leverages and reinforces many of the core concepts in the SA curriculum in a practical way. It provides a great opportunity to work on a “real” software development project as part of a team. It lays the foundation for the semester 6 INFO 30001 Capstone course",
+        "cCredit": "6.0",        
+        "cClassPlan": "a pdf file here"
+    }]
+}
