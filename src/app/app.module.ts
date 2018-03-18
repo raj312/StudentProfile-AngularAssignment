@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 import { CourseInformationService } from './course-information.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
+import { ShowProfileComponent } from './show-profile/show-profile.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowProfileComponent
   ],
   imports: [
     BrowserModule,

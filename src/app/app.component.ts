@@ -11,8 +11,8 @@ export class AppComponent {
   title = 'Raj Patel - Assignment 2';
 
   data: any;
-
-
+  
+  showprofile: boolean = false;
 
   constructor(public courseinfo: CourseInformationService){}
 
@@ -31,5 +31,13 @@ export class AppComponent {
     this.getData();
   }
 
+  showProfileInfo() {
+    //toggle
+    if(this.showprofile){
+      this.showprofile = false;
+    }else{
+      this.showprofile = true;
+    }
+  }
 
 }
