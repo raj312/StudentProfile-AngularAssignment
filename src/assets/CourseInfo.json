@@ -29,7 +29,7 @@
         },
         "cDesc": "Students develop iPhone applications using Objective C while considering User Interface design considerations. The course is structured around three main foundational components: (a) Tools (Xcode, Interface Builder), (b) Frameworks (Foundation, UIKit), and (c) Programming using Objective-C. Students use iPhone SDK features, including typical mobile resources (e.g., internet web services, location awareness, etc.), and apply design patterns to develop iPhone applications.",
         "cCredit": "4.0",        
-        "cClassPlan": "a pdf file here"
+        "cClassPlan": "assets/planpdf/iosCP.pdf"
     },
     {
         "cName": "Advanced. NET Server Development",
@@ -53,7 +53,7 @@
         },
         "cDesc": "Students learn to develop applications using advanced .NET technologies for the server including the Microsoft Entity Framework, ASP.NET MVCand Web API.They then apply these technologies to build  a Proof of Concept Prototype for the server portion of their Capstone (or equivalent) project.",
         "cCredit": "6.0",        
-        "cClassPlan": "a pdf file here"
+        "cClassPlan": "assets/planpdf/netCP.pdf"
     },{
         "cName": "Software Process Management",
         "cCode": "SYST 38364",
@@ -71,7 +71,7 @@
         },
         "cDesc": "Students gain experience in applying various industry standards for ensuring the release of quality software. This learning is supported by exploring techniques for managing software configuration, including testing and deployment. Students use a variety of tools to automate tests and software builds. Working in groups, students learn how to design and execute an overall Software Development Plan which is integral to the successful development and implementation of all computer systems.",
         "cCredit": "3.0",        
-        "cClassPlan": "a pdf file here"
+        "cClassPlan": "assets/planpdf/spmCP.pdf"
     },{
         "cName": "Hybrid Mobile App Development",
         "cCode": "SYST35300",
@@ -89,7 +89,7 @@
         },
         "cDesc": "Students build mobile widgets which are mobile applications created using web technologies (HTML, CSS, and JavaScript). Through a common application program interface (API), these applications have access to the mobile phone's native functions such as the Global Positioning System (GPS), Contacts, and Calendar etc. Students also store information on the mobile device using an indexed database or SQL which is the most widely deployed SQL database engine in the world. In addition, they incorporate multimedia applications as well as understand the security framework for the Blackberry and best practices for writing secure programs. Application deployment issues such as 'signing' are also covered.",
         "cCredit": "3.0",        
-        "cClassPlan": "a pdf file here"
+        "cClassPlan": "assets/planpdf/hybridCP.pdf"
     },{
         "cName": "Capstone Project Requirements & Design",
         "cCode": "SYST36367",
@@ -112,6 +112,6 @@
         },
         "cDesc": "SYST36367 is the first of two Capstone courses in the Systems Analyst curriculum. This course is of fundamental importance to the curriculum for the following reasons. It leverages and reinforces many of the core concepts in the SA curriculum in a practical way. It provides a great opportunity to work on a “real” software development project as part of a team. It lays the foundation for the semester 6 INFO 30001 Capstone course",
         "cCredit": "6.0",        
-        "cClassPlan": "a pdf file here"
+        "cClassPlan": "assets/planpdf/capstoneCP.pdf"
     }]
 }
