@@ -15,7 +15,12 @@
 
     <button type="button" (click)="showProfileInfo()"> Toggle Profile Information</button>
 
-    <button type="button"> View Course Information </button>
+
+  <ul>
+    <li *ngFor="let c of data.courses" (click)="onCourseChange(c)">{{ c.cName }}</li>
+  </ul>
+
+    <button type="button" (click)="showCourseInformation=false"> Hide Course Information </button> 
 
 
   </div>
@@ -24,5 +29,5 @@
 
 <app-show-profile *ngIf="showprofile"></app-show-profile>
 
-<p>Add course info component here</p>
+<app-show-course-info *ngIf="showCourseInformation && selectedCourse" [selectedCourse]=selectedCourse></app-show-course-info>
 

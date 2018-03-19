@@ -1,0 +1,60 @@
+<h2>Selected Course Information</h2>
+
+<table class="info">
+  <tr>
+    <th>Course Name</th>
+    <td>{{ selectedCourse.cName }}</td>
+  </tr>
+  <tr>
+    <th>Course Code</th>
+    <td>{{ selectedCourse.cCode }}</td>
+  </tr>
+  <tr *ngIf="selectedCourse.cSection">
+    <th>Section</th>
+    <td>{{ selectedCourse.cSection }}</td>
+  </tr>
+  <tr>
+    <th>Schedule</th>
+    <td>
+      <table *ngFor="let sch of selectedCourse.cSchedule" class="childTable">
+        <tr>
+          <th>Day</th>
+          <td>{{ sch.day }}</td>
+        </tr>
+        <tr>
+          <th>Time</th>
+          <td>{{ sch.time }}</td>
+        </tr>
+        <tr>
+          <th>Location</th>
+          <td>{{ sch.location }}</td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+  <tr>
+    <th>Professor</th>
+    <td>
+      <table class="childTable">
+        <tr>
+          <th>Name</th>
+          <td>{{ selectedCourse.cProf.pname }}</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>{{ selectedCourse.cProf.pemail }}</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <th>Course Description</th>
+    <td>{{ selectedCourse.cDesc }}</td>
+  </tr>
+  <tr>
+    <th>Course Credit</th>
+    <td>{{ selectedCourse.cCredit }}</td>
+  </tr>
+
+</table>
