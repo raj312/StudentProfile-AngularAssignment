@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    width: 80%;
+    margin: auto;
+    color: #4D4C4C;
+}
+
+/* Styling the tables */
+
+.info {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.info td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 80%;    
+}
+
+.info tr:nth-child(even){background-color: #f2f2f2;}
+
+.info tr:hover {background-color: #ddd;}
+
+.info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
