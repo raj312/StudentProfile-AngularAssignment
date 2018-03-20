@@ -3,6 +3,7 @@
 body {
     width: 80%;
     margin: auto;
+    color: #4D4C4C;
 }
 
 /* Styling the tables */
@@ -13,9 +14,10 @@ body {
     width: 100%;
 }
 
-.info td, .info th {
+.info td {
     border: 1px solid #ddd;
     padding: 8px;
+    width: 80%;    
 }
 
 .info tr:nth-child(even){background-color: #f2f2f2;}
@@ -28,4 +30,7 @@ body {
     text-align: left;
     background-color: #4CAF50;
     color: white;
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 8px;
 }
