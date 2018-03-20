@@ -13,6 +13,9 @@ export class AppComponent {
   data: any;
   
   showprofile: boolean = false;
+  showCourseInformation: boolean = false;
+
+  selectedCourse: any;
 
   constructor(public courseinfo: CourseInformationService){}
 
@@ -39,5 +42,15 @@ export class AppComponent {
       this.showprofile = true;
     }
   }
+
+  //on course change from dropdown
+  onCourseChange(scourse){
+   console.log(scourse.cCode);
+    this.showCourseInformation = true;
+    this.selectedCourse = scourse;
+  // console.log(this.selectedCourse.cSection);
+  }
+
+
 
 }

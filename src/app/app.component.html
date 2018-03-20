@@ -7,15 +7,20 @@
 <hr>
 <div class="t_container">
   <div class="imageContent">
-    <img src="./../assets/images/RajPatelPic.jpg" alt="Image of Raj Patel" height="250px">
+    <img src="./../assets/images/RajPatelPic.jpg" alt="Image of Raj Patel" height="400px">
   </div>
   <div class="basicInfoContent">
     <h2>{{ data.name | uppercase }}</h2>
-    <h3> {{ data.title }}</h3>
 
     <button type="button" (click)="showProfileInfo()"> Toggle Profile Information</button>
 
-    <button type="button"> View Course Information </button>
+    <p>Select from one of the courses below to view detailed course information</p>
+
+    <ul>
+      <li *ngFor="let c of data.courses" (click)="onCourseChange(c)">{{ c.cName }}</li>
+    </ul>
+
+    <button type="button" (click)="showCourseInformation=false"> Hide Course Information </button>
 
 
   </div>
@@ -24,5 +29,5 @@
 
 <app-show-profile *ngIf="showprofile"></app-show-profile>
 
-<p>Add course info component here</p>
+<app-show-course-info *ngIf="showCourseInformation && selectedCourse" [selectedCourse]=selectedCourse></app-show-course-info>
 
